@@ -5,7 +5,7 @@ import Expertise from '../components/sections/Expertise';
 import Explorer from '../components/sections/Explorer';
 import Boutique from '../components/sections/Boutique';
 import PodcastTeaser from '../components/sections/PodcastTeaser';
-
+// 
 const LandingPage = () => {
   return (
     <motion.main
