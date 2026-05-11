@@ -1,6 +1,7 @@
 import React from 'react';
-// IMPORTATION DES ICÔNES MANQUANTES
-import { Instagram, Twitter, Linkedin, Mail, ArrowUpRight } from 'lucide-react';
+// IMPORTATION DES ICÔNES MANQUANTESInstagram, Twitter, Linkedin,
+import {  Mail, ArrowUpRight } from 'lucide-react';
+import * as Lucide from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,11 +21,12 @@ const Footer = () => {
               Créer des écosystèmes qui marquent l'époque et connectent les idées.
             </p>
             <div className="flex space-x-5">
-              <a href="#" className="text-gray-400 hover:text-black transition-colors"><Instagram size={20} /></a>
+              {/* <a href="#" className="text-gray-400 hover:text-black transition-colors"><Instagram size={20} /></a>
               <a href="#" className="text-gray-400 hover:text-black transition-colors"><Twitter size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-black transition-colors"><Linkedin size={20} /></a>
+              <a href="#" className="text-gray-400 hover:text-black transition-colors"><Linkedin size={20} /></a> */}
             </div>
           </div>
+          
 
           {/* Colonne 2: Navigation Rapide */}
           <div>
