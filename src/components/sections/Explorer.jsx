@@ -2,10 +2,48 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const projects = [
-  { id: 1, title: "L'Éveil Startup", category: "Innovation", mood: "Minimaliste", image: "https://via.placeholder.com/600x800" },
-  { id: 2, title: "Identity Flux", category: "Graphic Design", mood: "Brutaliste", image: "https://via.placeholder.com/600x400" },
-  { id: 3, title: "Sprint Master", category: "Gestion de Projet", mood: "Corpo", image: "https://via.placeholder.com/600x600" },
-  // Ajoute d'autres projets ici
+  { 
+    id: 1, 
+    title: "L'Éveil Startup", 
+    category: "Innovation", 
+    mood: "Minimaliste", 
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" 
+  },
+  { 
+    id: 2, 
+    title: "Identity Flux", 
+    category: "Graphic Design", 
+    mood: "Brutaliste", 
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" 
+  },
+  { 
+    id: 3, 
+    title: "Sprint Master", 
+    category: "Gestion de Projet", 
+    mood: "Corpo", 
+    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80" 
+  },
+  { 
+    id: 4, 
+    title: "Espace Virtuel K1", 
+    category: "Innovation", 
+    mood: "Futuriste", 
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" 
+  },
+  { 
+    id: 5, 
+    title: "Minimal Brand Book", 
+    category: "Graphic Design", 
+    mood: "Minimaliste", 
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80" 
+  },
+  { 
+    id: 6, 
+    title: "Structure Écosystème", 
+    category: "Gestion de Projet", 
+    mood: "Corpo", 
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" 
+  }
 ];
 
 const Explorer = () => {
